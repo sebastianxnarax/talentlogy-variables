@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/estilos.css" />
+    <title>respuesta 6</title>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>¿Cuál es la diferencia entre una variable y una constante?</h1>
+        <ol>
+          <li>
+            <h1>Mutabilidad:</h1>
+            <ul>
+              <li>
+                <h3>Variable:</h3>
+                <span>
+                  Puedes cambiar el valor de una variable después de haberla
+                  declarado usando let o var. Es decir, puedes reasignar un
+                  nuevo valor a una variable.
+                </span>
+              </li>
+              <li>
+                <h3>Constante:</h3>
+                <span>
+                  Una vez que asignas un valor a una constante usando const, no
+                  puedes reasignar un nuevo valor a esa constante. La constante
+                  siempre mantiene el mismo valor.
+                </span>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <h1>Alcance:</h1>
+            <ul>
+              <li>
+                <h3>Variable:</h3>
+                <span>
+                  Las variables declaradas con var o let tienen un alcance de
+                  bloque, de función o global, dependiendo de dónde se declaren.
+                </span>
+              </li>
+              <li>
+                <h3>Constante:</h3>
+                <span>
+                  Las constantes declaradas con const también tienen un alcance
+                  de bloque, de función o global, pero no pueden ser
+                  redeclaradas en el mismo alcance.
+                </span>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h1>Hoisting:</h1>
+            <ul>
+              <li>
+                <h3>Variable:</h3>
+                <span>
+                  Las variables declaradas con var son elevadas (hoisted) al
+                  principio de su contexto de ejecución. Esto significa que
+                  puedes usar la variable antes de su declaración.
+                </span>
+              </li>
+              <li>
+                <h3>Constante:</h3>
+                <span>
+                  Las constantes declaradas con const y let también están
+                  elevadas, pero no puedes acceder a ellas antes de su
+                  declaración.
+                </span>
+              </li>
+            </ul>
+          </li>
+          <h1>En resumen</h1>
+          <p>
+            las variables (let y var) pueden cambiar de valor y son elevadas,
+            mientras que las constantes (const) no pueden cambiar de valor y
+            también son elevadas. La elección entre el uso de variables o
+            constantes depende de si planeas cambiar el valor de la referencia y
+            de si deseas enfatizar la inmutabilidad del valor.
+          </p>
+        </ol>
+        <a href="/index.html">volver</a>
+      </div>
+    </main>
+  </body>
+</html>
